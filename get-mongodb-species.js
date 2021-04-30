@@ -1,7 +1,7 @@
 const mongodb = require('mongodb');
 
 const uri = 'mongodb+srv://admin:admin@cluster0.5cdt0.mongodb.net';
-
+//https://us-south.functions.appdomain.cloud/api/v1/web/brycewilkinson43%40gmail.com_dev/hello-world/helloworld
 let client = null;
 
 async function main(params) {
