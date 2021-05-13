@@ -12,6 +12,8 @@
   *         It will be the output of this action.
   *
   */
+
+//https://us-south.functions.appdomain.cloud/api/v1/web/brycewilkinson43%40gmail.com_dev/fake-admin/helloworld.json
 function main(params) {
   
   return { username: 'admin1', password: 'password1' };
