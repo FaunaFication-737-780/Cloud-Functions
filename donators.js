@@ -10,7 +10,7 @@ async function main(params) {
     client = await mongodb.MongoClient.connect(uri);  
   }
 
-  const docs = await client.db('geodata').collection('speciesInfo').find().toArray();
+  const docs = await client.db('geodata').collection('donatedPeoples').find().toArray();
 
   return { body: { result: docs, reused } };
 }
